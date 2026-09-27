@@ -1,7 +1,7 @@
 # Snowflake PAT Expiry Monitor
 
 ## Overview
-
+![PAT Expiry Architecture](./pat_expiry_architecture.png)
 Automated, **in-account** monitoring of Snowflake Programmatic Access Tokens (PATs) that
 alerts token owners *before* expiry — no external host required. A daily Snowflake Task
 runs a Python stored procedure that:
